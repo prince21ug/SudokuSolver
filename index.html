@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shudoko Solver</title>
+    <link rel="stylesheet" href="shudoko.css">
+</head>
+<body>
+    <div class="main" id="main">
+        <h1 id="heading" class="heading">Shudoko Solver</h1>
+        <div class="active">
+            <div class="mainbuttons">
+                <div class="solver" id="solver"><h1>Solve</h1></div>
+                <div class="speedUp" id="speedUp"><h1>Speed Solve</h1></div>
+                <div class="newboard" id="newboard"><h1>New Board</h1></div>
+            </div>
+            <div class="board" id="board"></div>
+            <div class="numbers" id="numbers">
+                <p class="nums" id="one">1</p>
+                <p class="nums" id="two">2</p>
+                <p class="nums" id="three">3</p>
+                <p class="nums" id="four">4</p>
+                <p class="nums" id="five">5</p>
+                <p class="nums" id="six">6</p>
+                <p class="nums" id="seven">7</p>
+                <p class="nums" id="eight">8</p>
+                <p class="nums" id="nine">9</p>
+                <p class="nums" id="del">del</p>
+            </div>
+            <div class="allwarnings">
+                <p class="warning1" id="warning1">number is being repeted <br>in the same row</p>
+                <p class="warning1" id="warning2">number is being repeted <br>in the same column</p>
+                <p class="warning1" id="warning3">number is being repeted <br>in the same sub-square</p>
+                
+            </div>
+        </div>
+
+    </div>
+    <script src="shudoko.js"></script>
+</body>
+</html>
